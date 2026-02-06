@@ -55,6 +55,7 @@ void findRowSum(const double *dPtr, double *sum, int N, int M){
     }
 }
 
+
 void findColSum(const double *dPtr, double *sum, int N, int M){
     for(int i = 0; i < M; i++) sum[i] = 0;
     for(int i = 0; i < N * M; i++){
